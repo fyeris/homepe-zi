@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フェリスとチャット！</title>
+  <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+
+  <!-- ヘッダー（上の箱） -->
+  <header class="box header-box">
+    <h1>⚔フェリスとのチャットルーム⚔</h1>
+    <p>毎日寝不足な僕と話そう！（「年齢」「出身」「趣味」「寝不足」などを聞いてみてね）</p>
+    <nav class="nav-buttons">
+      <a href="index.html" class="nav-btn">プロフィールに戻る</a>
+    </nav>
+  </header>
+
+  <!-- メインエリア -->
+  <main class="container">
+    
+    <!-- チャットのメッセージが表示されるエリア -->
+    <section class="box chat-box">
+      <h2>⚔チャットログ⚔</h2>
+      
+      <div id="message-list" class="message-list">
+        <div class="chat-message ai-message">
+          <p>やあ！フェリスだよ。コード手打ち練習中なんだ。何か質問はあるかい？</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- メッセージ入力エリア -->
+    <section class="box input-box">
+      <form id="chat-form" class="chat-form">
+        <input type="text" id="chat-input" placeholder="メッセージを入力してね..." class="chat-input" autocomplete="off">
+        <button type="submit" class="nav-btn">送信</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- フッター（下の箱） -->
+  <footer class="box footer-box">
+    <p>&copy; 2026 fyeris profile</p>
+  </footer>
+
+  <!-- JavaScript（同じ階層に script.js を置く場合） -->
+  <script src="script.js"></script>
+</body>
+</html>
